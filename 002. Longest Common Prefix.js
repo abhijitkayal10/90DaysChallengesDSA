@@ -9,7 +9,5 @@ let i = 0;
 while(i<minLength && first[i]==last[i]){
     i++;
 }
-
-
 return first.substring(0,i);
 };
